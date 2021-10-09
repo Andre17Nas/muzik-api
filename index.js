@@ -47,7 +47,7 @@ app.post("/page", async(request, response)=>{
     search.replace(" ", "%20")
     try {
 
-        const newSearch =  await axios.get(`https://api.deezer.com/search?q=${search}&index=${page * 25}`);
+        const newSearch =  await axios.get(`https://api.deezer.com/search?q=${search}&index=${page}`);
         response.json(newSearch.data)
 
     }catch(err){
