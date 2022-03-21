@@ -2,6 +2,8 @@ import express from "express";
 import cors from "cors";
 import axios from "axios";
 
+const PORT = process.env.PORT || 3000;
+
 const app = express();
 
 app.use(cors());
@@ -57,6 +59,6 @@ app.post("/page", async(request, response)=>{
 
 
 
-app.listen(9999, ()=>{
-    console.log("server is running on port:9999");
+app.listen(PORT, ()=>{
+    console.log("server is running on port:3333");
 })
