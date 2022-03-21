@@ -13,7 +13,7 @@ quando aparecer a mensagem de "done", significa que o repositorio foi clonado co
 
 3.  use um dos comandos abaixo para instalar todas as dependencias do projeto.
 ```
- 'npm i'  ou 'npm install'
+ 'npm i'  ou 'npm install' ou 'yarn install'
 ```
 
 4.  utilize o codigo abaixo no terminal para rodar o server no modo de desenvolvimento:
